@@ -1,15 +1,15 @@
 #include <stdio.h>
 int main()
 {
-    int d;
+    int distance_km;
     
-    printf("enter distance in km \n");
-    scanf("%d",&d);
+    printf("Enter distance in km \n");
+    scanf("%d",&distance_km);
     
-    printf("Feet %f\n",(d*3280.84));
-    printf("Meters %d\n",(d*1000));
-    printf("Inches %f\n",(d*39370.1));
-    printf("Centimeters %d\n",(d*100000));
+    printf("Distance in Feet %f\n",(d*3280.84));
+    printf("Distance in Meters %d\n",(d*1000));
+    printf("Distance in Inches %f\n",(d*39370.1));
+    printf("Distance in Centimeters %d\n",(d*100000));
     
     return 0;
 }
