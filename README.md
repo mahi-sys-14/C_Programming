@@ -11,7 +11,7 @@ gcc sample.c
 or
 gcc sample.c -o sample
 
-### To run the exexutable file
+### To run the executable file
 ./a.out
 or
 ./sample
